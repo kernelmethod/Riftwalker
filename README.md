@@ -36,6 +36,4 @@ H4sIAAAAAAAAA81WUY/SQBB+v1+xaXwshLuQy8XkHpAjagSDgGhi7mHbju3G7W6zO3uKhP/ubMthW1Q8
 
 ![Screenshot of the Vortex esper build from the Qud UI](assets/build_riftwalker_esper.png)
 
-### Precognition + Space-Time Vortex
-
 ![A picture of a hooded figure walking into a portal](assets/Preview.png)
