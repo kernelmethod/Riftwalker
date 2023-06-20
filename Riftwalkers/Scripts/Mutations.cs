@@ -1,6 +1,6 @@
 using System;
+using XRL.Rules;
 using XRL.UI;
-using XRL.World.Capabilities;
 
 namespace XRL.World.Parts.Mutation
 {
@@ -104,7 +104,7 @@ namespace XRL.World.Parts.Mutation
             {
                 GameObject gameObject = GameObject.create("Space-Time Vortex");
                 Temporary temporary = gameObject.GetPart("Temporary") as Temporary;
-                temporary.Duration = 12;
+                temporary.Duration = Stat.Random(6, 8);
                 C.AddObject(gameObject);
                 escapeRift = gameObject.takeReference();
             }
