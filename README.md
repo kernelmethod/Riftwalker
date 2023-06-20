@@ -1,11 +1,20 @@
 # Riftwalkers
 
-![A picture of a hooded figure walking into a portal](assets/Preview.png)
+- Cornered?
+- Tough enemy in the way?
+- Barrier blocking your path?
+- Bored, and looking for a way to instantly teleport 25 strata below?
+
+*Just space-time vortex your problems away!*
+
+Riftwalkers is a small Caves of Qud mod to increase the viability of Space-Time
+Vortex-oriented builds. It is partially inspired by the [Improved Space-Time
+Vortex mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1445153212).
 
 ## Features
 
 - Adds the Escape Rift mental mutation, which spawns a space-time vortex at the
-  player's location.
+  player's current cell.
 - Vortices spawned by the Space-Time Vortex mutation now spawn at the location
   selected by the player (rather than a random adjacent tile). The mutation cost
   of Space-Time Vortex is slightly increased.
@@ -13,3 +22,20 @@
 **Warning:** this mod makes a few different changes to the behavior of the
 Space-Time Vortex mutation. These changes may interfere with other mods you have
 installed that also alter the behavior of this mutation.
+
+## Recommended builds
+
+### Riftwalker esper
+
+An esper build utilizing Escape Rift and Space-Time Vortex to provide various
+vortex-based options for defense and exploratoin.
+
+```
+H4sIAAAAAAAAA81WUY/SQBB+v1+xaXwshLuQy8XkHpAjagSDgGhi7mHbju3G7W6zO3uKhP/ubMthW1Q8E0xJKOX7Zr/9mJkdur1gLEh5Dg9grNAqeM6Cq/6gfzUY9m+ug9DTkRMyqfGXxA8qKteJk2AJ/URfGduW1wOx2hTgV3xcTPvjjBseI5gXXs7237nEv1+C0khhs3JByEbWQh7JTW+8pAVFyNbVxrc/XYVs7CQ6A7cKHBouQzZ3kRTxG9is9BdQt8pJWRosvSQcObl49EbIM3yqsTvSODJ32IIkH8O96swhR0jYK5dzVQ86SuKe2pWfu/Afc7h0USdT2PB1MoP7aK85FzI1Iv8PqStLRbq2c8lrOTuZvrwgwUENsCAhLhUOx7N6bWv3bN+t+9RObAGmploGjLVTSOxlC19zI3jJDFrMQ8W8pbniVYMauwv/zsl7ZZFHEpg/WCTTBU8TG/MC2EJ8xk74mYo0QzbjShROVmgXbC0LHkNvJXJga20QvnXDlY4Fl3LDFlC4VPl9zmrrcH9//ik2QjQicgjdG2Ntayfn2FwLhXbuTJxxC0ljR/8vgQZUihnhw3o1glEqpMAN4dcNfKVdmimwfgreNJjXCkFKkYKK4WjZByFlob/SNKSGaNQ9mKTaax2gWgcGvFgWUPZKbzhs4AvIuVBCpa0xHdGvHPnZ3Yg/U6OMnUWdi+9w4DvXML+zeLJxVHUKvYcaWgAeg1TypKxsO9hoRUNg+as156pIprWFJXKD1BtTHZcDq3tV+YPN0092rWV+rzuwYHDM1YYeUNZ02HgKT3jeo+v9xe4HdSc6eL4MAAA=
+```
+
+![Screenshot of the Vortex esper build from the Qud UI](assets/build_riftwalker_esper.png)
+
+### Precognition + Space-Time Vortex
+
+![A picture of a hooded figure walking into a portal](assets/Preview.png)
