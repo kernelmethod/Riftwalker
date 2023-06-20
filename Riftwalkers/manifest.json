@@ -1,7 +1,7 @@
 {
     "id": "Kernelmethod_Riftwalkers",
     "title": "{{m|Riftwalkers}}",
-    "description": "",
+    "description": "A mod to make vortex-oriented builds more viable.\n\nAdds the Escape Rift mutation and small improvements to Space-Time Vortex.",
     "version": "0.1.0",
     "author": "{{G|kernelmethod}}",
     "PreviewImage": "Preview.png"
