@@ -3,7 +3,7 @@
 - Cornered?
 - Tough enemy in the way?
 - Barrier blocking your path?
-- Bored, and looking for a way to instantly teleport 25 strata below?
+- Bored, and looking for a way to instantly teleport 25 strata below Qud?
 
 *Just space-time vortex your problems away!*
 
@@ -23,6 +23,17 @@ Vortex mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1445153212).
 **Warning:** this mod makes a few different changes to the behavior of the
 Space-Time Vortex mutation. These changes may interfere with other mods you have
 installed that also alter the behavior of this mutation.
+
+## Installation
+
+If you're playing Caves of Qud through Steam, you can install this mod by
+subscribing to it on its [Steam Workshop
+page](https://steamcommunity.com/sharedfiles/filedetails/?id=2992397788).
+
+If you're playing Qud through a different source (e.g. from Itch), you should
+follow the [manual installation
+instructions](https://wiki.cavesofqud.com/wiki/Modding:Installing_a_mod#Manual_Download)
+on the Qud wiki.
 
 ## Recommended builds
 
