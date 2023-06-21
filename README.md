@@ -33,7 +33,9 @@ page](https://steamcommunity.com/sharedfiles/filedetails/?id=2992397788).
 If you're playing Qud through a different source (e.g. from Itch), you should
 follow the [manual installation
 instructions](https://wiki.cavesofqud.com/wiki/Modding:Installing_a_mod#Manual_Download)
-on the Qud wiki.
+on the Qud wiki. In this case, you should [download this repository as a zip
+file](https://github.com/kernelmethod/Riftwalkers/archive/refs/heads/main.zip)
+and copy the `Riftwalkers/` subdirectory as described on the CoQ wiki.
 
 ## Recommended builds
 
