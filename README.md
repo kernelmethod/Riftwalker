@@ -1,4 +1,4 @@
-# Riftwalkers
+# Riftwalker
 
 - Cornered?
 - Tough enemy in the way?
@@ -7,7 +7,7 @@
 
 *Just space-time vortex your problems away!*
 
-Riftwalkers is a small Caves of Qud mod to increase the viability of Space-Time
+Riftwalker is a small Caves of Qud mod to increase the viability of Space-Time
 Vortex-oriented builds. It is partially inspired by the [Improved Space-Time
 Vortex mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1445153212).
 
@@ -34,8 +34,8 @@ If you're playing Qud through a different source (e.g. from Itch), you should
 follow the [manual installation
 instructions](https://wiki.cavesofqud.com/wiki/Modding:Installing_a_mod#Manual_Download)
 on the Qud wiki. In this case, you should [download this repository as a zip
-file](https://github.com/kernelmethod/Riftwalkers/archive/refs/heads/main.zip)
-and copy the `Riftwalkers/` subdirectory as described on the CoQ wiki.
+file](https://github.com/kernelmethod/Riftwalker/archive/refs/heads/main.zip)
+and copy the `Riftwalker/` subdirectory as described on the CoQ wiki.
 
 ## Recommended builds
 

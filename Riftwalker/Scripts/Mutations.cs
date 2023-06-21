@@ -5,11 +5,11 @@ using XRL.UI;
 namespace XRL.World.Parts.Mutation
 {
     [Serializable]
-    class Kernelmethod_Riftwalkers_EscapeRift : BaseMutation
+    class Kernelmethod_Riftwalker_EscapeRift : BaseMutation
     {
         public GameObjectReference escapeRift = null;
 
-        public Kernelmethod_Riftwalkers_EscapeRift()
+        public Kernelmethod_Riftwalker_EscapeRift()
         {
             DisplayName = "Escape Rift";
             base.Type = "Mental";

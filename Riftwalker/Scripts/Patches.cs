@@ -4,7 +4,7 @@ using XRL.Rules;
 using XRL.World;
 using XRL.World.Parts.Mutation;
 
-namespace Kernelmethod.Riftwalkers.Patches {
+namespace Kernelmethod.Riftwalker.Patches {
     [HarmonyPatch(typeof(SpacetimeVortex))]
     public class SpacetimeVortexPatch
     {
