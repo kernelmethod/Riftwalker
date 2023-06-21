@@ -17,7 +17,8 @@ Vortex mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1445153212).
   player's current cell.
 - Vortices spawned by the Space-Time Vortex mutation now spawn at the location
   selected by the player (rather than a random adjacent tile). The mutation cost
-  of Space-Time Vortex is slightly increased.
+  of Space-Time Vortex is slightly increased. This change _only_ applies to the
+  player, not to NPCs that use Space-Time Vortex.
 
 **Warning:** this mod makes a few different changes to the behavior of the
 Space-Time Vortex mutation. These changes may interfere with other mods you have
