@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<objects>
+    <!--
+        Weapons
+    -->
+
+    <!--
+    <object Name="Kernelmethod_Riftwalkers_BaseRiftPistol" Inherits="BasePistol">
+        <part Name="Metal" />
+        <tag Name="Mods" Value="MissileWeaponMods,FirearmMods,CommonMods,ElectronicsMods,PistolMods" />
+    </object>
+
+    <object Name="Kernelmethod_Riftwalkers_BaseRiftRifle" Inherits="BaseRifle">
+        <part Name="Metal" />
+        <tag Name="Mods" Value="MissileWeaponMods,FirearmMods,CommonMods,RifleMods,ElectronicsMods" />
+    </object>
+
+    <object Name="Kernelmethod_Riftwalkers_RiftTearer" Inherits="Kernelmethod_Riftwalkers_BaseRiftPistol">
+        <part Name="Render" DisplayName="rift tearer" Tile="Items/riftgun.png" ColorString="&amp;y" DetailColor="M" />
+        <part Name="Description" Short="The tried-and-true original rift gun, it was first discovered after a spatiotemporal experiment went horribly wrong. The scientists' bodies were never fully recovered, but the gun became an instant market success." />
+        <part Name="Physics" Weight="8" />
+
+        <part Name="MissileWeapon" Skill="Pistol" AmmoChar="&amp;B-" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="4" />
+        <tag Name="MissileFireSound" Value="pistol_laser" />
+
+        <part Name="EnergyAmmoLoader" ChargeUse="250" ProjectileObject="Kernelmethod_Riftwalkers_ProjectileRift" />
+        <part Name="EnergyCellSocket" SlotType="EnergyCell" />
+        <part Name="CooldownAmmoLoader" Cooldown="2" Readout="true" />
+
+        <part Name="Examiner" Complexity="5" />
+        <part Name="TinkerItem" Bits="0005" CanDisassemble="true" CanBuild="true" />
+
+        <part Name="Commerce" Value="400" />
+        <tag Name="Tier" Value="5" />
+    </object>
+
+    <object Name="Kernelmethod_Riftwalkers_VoidBlaster" Inherits="Kernelmethod_Riftwalkers_BaseRiftRifle">
+        <part Name="Render" DisplayName="{{psychalflesh|void blaster}}" Tile="Items/voidblaster.png" ColorString="&amp;K" DetailColor="o" />
+        <part Name="Description" Short="Not for the faint of heart." />
+        <part Name="Physics" Weight="14" />
+
+        <part Name="MissileWeapon" Skill="Rifle" ShotsPerAction="8" AmmoPerAction="1" ShotsPerAnimation="8" WeaponAccuracy="45" RangeIncrement="6" />
+        <tag Name="MissileFireSound" Value="lazerMedium4" />
+
+        <part Name="EnergyAmmoLoader" ChargeUse="750" ProjectileObject="Kernelmethod_Riftwalkers_ProjectileRift" />
+        <part Name="EnergyCellSocket" SlotType="EnergyCell" />
+        <part Name="CooldownAmmoLoader" Cooldown="4" Readout="true" />
+
+        <part Name="Examiner" Complexity="6" />
+        <part Name="TinkerItem" Bits="0006" CanDisassemble="true" CanBuild="true" />
+
+        <part Name="Commerce" Value="600" />
+        <tag Name="Tier" Value="6" />
+    </object>
+
+    <object Name="Kernelmethod_Riftwalkers_ProjectileRift" Inherits="TemporaryProjectile">
+        <part Name="Render" DisplayName="{{m|spacetime rift}}" ColorString="&amp;m" />
+        <part Name="Projectile" BasePenetration="4" BaseDamage="0" Attributes="Light Laser" ColorString="&amp;C" PassByVerb="streak" />
+        <part Name="TreatAsSolid" LightBased="true" Hits="false" RequiresPhaseMatch="false" Message="The darkness consumes =subject.t=!" />
+        <tag Name="Light" />
+
+        <part Name="Kernelmethod_Riftwalkers_CreateSpaceTimeVortexOnHit" />
+    </object>
+    -->
+</objects>
