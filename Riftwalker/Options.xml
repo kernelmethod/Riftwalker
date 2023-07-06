@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<options>
+    <option ID="Option_Kernelmethod_Riftwalker_Weapons" DisplayText="Enable new items and weapons" Category="Mods: Riftwalker" Type="Checkbox" Default="Yes"></option>
+</options>
