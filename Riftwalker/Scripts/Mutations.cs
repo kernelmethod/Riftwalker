@@ -1,3 +1,5 @@
+using Kernelmethod.Riftwalker.Utilities;
+
 using System;
 using XRL.Rules;
 using XRL.UI;
@@ -104,7 +106,7 @@ namespace XRL.World.Parts.Mutation
             {
                 GameObject gameObject = GameObject.create("Space-Time Vortex");
                 Temporary temporary = gameObject.GetPart("Temporary") as Temporary;
-                temporary.Duration = Stat.Random(6, 8);
+                temporary.Duration = Kernelmethod_Riftwalker_Random.Next(6, 8);
                 C.AddObject(gameObject);
                 escapeRift = gameObject.takeReference();
             }
