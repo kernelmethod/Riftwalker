@@ -1,10 +1,13 @@
 using System;
 
 namespace XRL.World.Parts {
+    /// <summary>
+    /// Part that can be applied to projectiles to make them create a space-time vortex on hit.
+    /// </summary>
     [Serializable]
-    public class Kernelmethod_Riftwalkers_CreateSpaceTimeVortexOnHit : IActivePart
+    public class Kernelmethod_Riftwalker_CreateSpaceTimeVortexOnHit : IActivePart
     {
-        public Kernelmethod_Riftwalkers_CreateSpaceTimeVortexOnHit ()
+        public Kernelmethod_Riftwalker_CreateSpaceTimeVortexOnHit ()
         {
             IsRealityDistortionBased = true;
         }
@@ -41,6 +44,5 @@ namespace XRL.World.Parts {
 
             return base.FireEvent(E);
         }
-
     }
 }
