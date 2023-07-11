@@ -20,6 +20,28 @@
         <tag Name="Mods" Value="CommonMods" />
     </object>
 
+    <object Name="Kernelmethod_Riftwalker_VortexPack" Inherits="BaseCloak">
+        <part Name="Armor" WornOn="Back" AV="0" />
+        <part Name="Render" DisplayName="{{extradimensional|riftwalker's}} {{m|backpack}}" ColorString="&amp;c" DetailColor="W" Tile="Items/sw_backpack.bmp" />
+        <part Name="Description" Short="TODO" />
+        <part Name="Commerce" Value="2000" />
+        <part Name="Kernelmethod_Riftwalker_VortexPack" />
+
+        <part Name="EnergyCellSocket" SlotType="EnergyCell" />
+        <part Name="AIDefensiveEnergyCellReload" />
+        <part Name="AIPassiveEnergyCellReload" />
+
+        <part Name="Physics" Weight="8" />
+        <part Name="Metal" />
+
+        <part Name="BootSequence" BootTime="20" ChargeUse="50" ReadoutInName="true" ReadoutInDescription="true" />
+        <part Name="Examiner" Alternate="UnknownBackpack" Complexity="8" Difficulty="2" />
+        <part Name="TinkerItem" Bits="3368" CanDisassemble="true" CanBuild="true" />
+
+        <tag Name="Tier" Value="8" />
+        <tag Name="Mods" Value="CommonMods,ElectronicsMods" />
+    </object>
+
     <!--
         Weapons
     -->
