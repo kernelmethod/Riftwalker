@@ -1,8 +1,6 @@
 using Kernelmethod.Riftwalker.Utilities;
 
 using System;
-using XRL.UI;
-using XRL.World.Effects;
 
 namespace XRL.World.Parts
 {
@@ -12,13 +10,9 @@ namespace XRL.World.Parts
     [Serializable]
     public class Kernelmethod_Riftwalker_VortexBox : IGrenade
     {
-        public Guid ActivatedAbilityID = Guid.Empty;
-        public int CooldownRemaining;
-
         public static string PartEventName = "Detonate";
 
-        // private static string Blueprint = "Kernelmethod_Riftwalker_Dissipating Space-Time Rift";
-        private static string Blueprint = "Space-Time Vortex";
+        public static string Blueprint = "Space-Time Vortex";
 
         public override bool WantEvent(int ID, int cascade)
         {
